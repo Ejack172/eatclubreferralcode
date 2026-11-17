@@ -31,6 +31,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://eatclubreferralcode.co.in/",
   },
+  verification: {
+    google: "aL8htfno9gs-PSaUFB1Uq6my8gGJbqf2NL0ZqE-8x1w",
+  },
   openGraph: {
     title: "EatClub Referral Code 2027: MIRAJ850UXP – Flat 25% + Extra 25% OFF",
     description:
@@ -67,6 +70,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <meta
+          name="google-site-verification"
+          content="aL8htfno9gs-PSaUFB1Uq6my8gGJbqf2NL0ZqE-8x1w"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
