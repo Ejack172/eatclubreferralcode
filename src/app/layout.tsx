@@ -31,6 +31,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://eatclubreferralcode.co.in/",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "400x400" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "400x400", type: "image/png" }],
+  },
   verification: {
     google: "aL8htfno9gs-PSaUFB1Uq6my8gGJbqf2NL0ZqE-8x1w",
   },
@@ -74,6 +81,9 @@ export default function RootLayout({
           name="google-site-verification"
           content="aL8htfno9gs-PSaUFB1Uq6my8gGJbqf2NL0ZqE-8x1w"
         />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.png" type="image/png" sizes="400x400" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" sizes="400x400" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
